@@ -9,8 +9,8 @@
     - name: task variable
       ansible.builtin.debug:
         msg: URL_TASK - {{URL_TASK}}
-  vars:
-    URL_TASK: tasks.example.com
+      vars:
+        URL_TASK: tasks.example.com
 
   roles:
     - demo
