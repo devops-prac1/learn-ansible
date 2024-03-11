@@ -4,5 +4,5 @@
 
 - name: print URL
   ansible.builtin.debug:
-    msg: URL_ROLE - {{ URL_ROLE}}
+    msg: URL_ROLE - {{ URL_ROLE }}
 

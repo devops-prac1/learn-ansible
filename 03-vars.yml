@@ -6,7 +6,6 @@
     - name: print variable
       ansible.builtin.debug:
         msg: URL_PLAY - {{URL_PLAY}}
-
     - name: task variable
       ansible.builtin.debug:
         msg: URL_TASK - {{URL_TASK}}
