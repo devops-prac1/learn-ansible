@@ -12,6 +12,10 @@
       vars:
         URL_TASK: tasks.example.com
 
+  roles:
+    - demo
+
+
 
 
 

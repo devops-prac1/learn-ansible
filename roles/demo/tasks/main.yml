@@ -1,0 +1,7 @@
+- name: say hello
+  ansible.builtin.debug:
+    msg: hello
+
+- name: print URL
+  ansible.builtin.debug:
+    msg: URL_ROLE - {{URL_ROLE}}
