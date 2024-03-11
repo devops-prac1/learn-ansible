@@ -1,10 +1,4 @@
-- name: Print Hello
-  ansible.builtin.debug:
-    msg: Hello
-
-- name: print URL
-  ansible.builtin.debug:
-    msg: URL_ROLE - {{URL_ROLE}}
+URL_ROLE: role.example.com
 
 
 
