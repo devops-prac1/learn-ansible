@@ -1,0 +1,8 @@
+- name: demo on vars
+  hosts: localhost
+  vars:
+    URL_PLAy: play.example.com
+  tasks:
+    - name: print variable
+      ansible.builtin.debug:
+        msg: URL_PLAY - { { URL_PLAY }}
