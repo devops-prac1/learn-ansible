@@ -13,6 +13,9 @@
       vars:
         URL_TASK: tasks.example.com
 
+    roles:
+      - demo
+
 
 # play level variable can be accessed by all the tasks and roles
 
