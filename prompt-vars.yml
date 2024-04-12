@@ -9,7 +9,7 @@
       prompt: Enter your password
       private: yes
   tasks:
-
+    - name: displaying username and passwords
       debug:
         msg: "The username is {{ user_name}}"
       debug:
