@@ -11,5 +11,5 @@
   tasks:
     - debug:
         msg: "The username is {{ user_name}}"
-    -debug:
+      debug:
         msg: "The password is {{ password }}"
