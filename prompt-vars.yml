@@ -11,5 +11,7 @@
   tasks:
     - name: displaying username and passwords
       debug:
-      - msg: "The username is {{ user_name}}"
-      - msg: "The password is {{ password }}"
+        msg:
+
+          - "The username is {{ user_name}}"
+          - "The password is {{ password }}"
