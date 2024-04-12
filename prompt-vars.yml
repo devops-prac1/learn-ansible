@@ -9,5 +9,5 @@
       prompt: Enter your password
       private: yes
   tasks:
-    - debug:
+
         msg: "The username is {{ user_name}} and password is {{ password }}"
