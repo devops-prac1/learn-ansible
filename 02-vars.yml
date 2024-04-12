@@ -1,6 +1,7 @@
-- name: Example of using the debug module
-  hosts: all
-  tasks:
-    - name: Print a debug message
-      debug:
-        msg: "This is a debug message."
+  - name: command line variables
+    hosts: localhost
+    vars:
+      username: swathi
+    tasks:
+      - debug:
+          msg: "USERNAME={{ username }}"
