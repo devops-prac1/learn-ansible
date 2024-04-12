@@ -3,5 +3,4 @@
     vars:
       username: swathi
     tasks:
-      - debug:
           msg: "USERNAME={{ username }}"
