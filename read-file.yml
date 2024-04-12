@@ -3,7 +3,7 @@
   hosts: localhost
   vars_files: variable.yml
   tasks:
-
+    - debug:
         msg:
           - "My name is {{ name }}"
           - "This is {{ course }} tutorial"
