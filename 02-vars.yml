@@ -1,0 +1,6 @@
+- name: Example of using the debug module
+  hosts: all
+  tasks:
+    - name: Print a debug message
+      debug:
+        msg: "This is a debug message."
