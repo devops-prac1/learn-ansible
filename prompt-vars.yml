@@ -10,4 +10,6 @@
       private: yes
   tasks:
     - debug:
-        msg: "The username is {{ user_name}} and password is {{ password }}"
+        msg: "The username is {{ user_name}}"
+    -debug:
+        msg: "The password is {{ password }}"
