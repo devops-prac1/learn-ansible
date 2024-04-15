@@ -14,3 +14,4 @@
         msg: "The username is {{ user_name}}"
     - debug:
        msg: "The password is {{ password }}"
+    -
